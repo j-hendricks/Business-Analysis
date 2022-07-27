@@ -18,43 +18,43 @@ To answer these questions, Python and Jupyter Notebook were used, along with Pan
 
 As seen in the bar graph below, the most frequently bought products are baskets, art & sculpture and jewelry. The least bought items are One-of-a-kind, textiles and furniture. Similarly, most of the discounts and returns are derived from baskets, art & sculpture and jewelry. However, when it comes to percent return, textiles have much higher returns on average, and Easter and furniture products have the highest percent discounts.  
 
-![bar_quantity](bar_quantity.png)
-![bar_returns](bar_returns.png)
-![bar_discount](discount.png)
+![bar_quantity](Resources/bar_quantity.png)
+![bar_returns](Resources/bar_returns.png)
+![bar_discount](Resources/discount.png)
 
 This bar chart shows the total sales of each product. As expected, baskets and art & sculpture are the largest. All other products are small in comparison. Given that textiles has such a low profit margin with a high return rate, textile would be the product to discountinue. The next choices would be Easter and gift baskets due to their extremely small sales. 
-![bar_sales_product](bar_sales_product.png)
+![bar_sales_product](Resources/bar_sales_product.png)
 
 The figure below plots the average net loss per month. In this project, we have defined net worth as the amount of the gross sales lost from discounts and returns. The figure shows no clear patterns. However, there seems to be a large spike in net loss during the beginning months of 2017 and 2019. Each large spike in discounts appears to be spaced by several months of low net loss.
 
 The following bar chart shows the revenue made per product item. One-of-a-kind products, though sold infrequently, make the most revenue for each item sold. In second place is baskets, and furniture in third. It is advised to continue to offer "One-of-a-kind" products due to it's potential for boosting revenue.
-![bar_revenue_per_item](bar_revenue_per_item.png)
+![bar_revenue_per_item](Resources/bar_revenue_per_item.png)
 
 This figure shows the amount of monthly discounts overtime. The number skyrockets near the end of 2019, but is stable otherwise. Thus, the fluctuation in net loss is due to returns, which is demonstrated in the second figure below.
 
-![time_discounts](time_discounts.png)
-![time_returns](time_returns.png)
+![time_discounts](Resources/time_discounts.png)
+![time_returns](Resources/time_returns.png)
 
 From the large amount of overlap in the plot below, it is evident that the  majority of the money loss came from returns and not discounts. There was a huge spike in net loss and returns in the early summer of 2018. There were also many order occuring that month, which would explain the sudden increase in returns.
 
-![time_comparison](time_comparison.png)
+![time_comparison](Resources/time_comparison.png)
 
 Annual sales are increasing. The percent increase from 2017 to 2019 is roughly 50%. This is fantastic new for the company! From the line plot, it seems that the sales always jump during the end of the year, which right around Christmas season. 
 
-![bar_sales](bar_sales.png)
-![time_yearly](time_yearly.png)
+![bar_sales](Resources/bar_sales.png)
+![time_yearly](Resources/time_yearly.png)
 
 A linear regression analysis was performed on the monthly net sales from 2017 to 2019. From the slope of the equation, net sales increase by $243 every month that goes by. The r value is around 0.47, which means this equation fits the data moderately well. The p value is well below 0.05, so this linear trend is unlikely to be due to chance. 
 
-![scatter_sales](scatter_sales.png)
+![scatter_sales](Resources/scatter_sales.png)
 
 The % montly return was plotted and fitted with a regression line. The p value is roughly 0.28, which is too high to be statistically significant. As a result, the weak relationship between % return and time that is shown in the plot cannot be verified. Thus, as the company sells more products, the amount of money lost from returns is proportional. The comapny has worked hard to keep its services at a consistent quality! 
-![scatter_percent_loss](scatter_percent_loss.png)
+![scatter_percent_loss](Resources/scatter_percent_loss.png)
 
 Lastly, scatter plots were created to determine if an increase in % Discount translated to more sales. It is evident that the quantity of items sold increases with % discount until % discount exceeds 10%. Beyond 10%, the quantity sold decreases. A similar, though weaker, trend is found with net sales and % discount. Therefore, it is reccomended to keep discounts between 0 and 10% to maximize sales.
 
-![scatter_decay2](scatter_decay2.png) 
-![scatter_decay1](scatter_.png) 
+![scatter_decay2](Resources/scatter_decay2.png) 
+![scatter_decay1](Resources/scatter_.png) 
 
 ## Conclusion
 
