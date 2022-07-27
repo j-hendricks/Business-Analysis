@@ -9,23 +9,40 @@ An anonymous business has shared its sales data (2017-2019) on the website Kaggl
 * What products are selling the least? 
 * What products produce the highest revenue per sale?
 * Do higher discounts result in more products sold? What about total net sales? 
+* What time of the year has the highest sales?
 
 To answer these questions, Python and Jupyter Notebook were used, along with Pandas and Matplotlib. 
 
 ## Results
 
-As seen in the bar graph below, the most frequently bought products are baskets, art & sculpture and jewelry. The least bought items are One-of-a-kind, textiles and furniture.
+As seen in the bar graph below, the most frequently bought products are baskets, art & sculpture and jewelry. The least bought items are One-of-a-kind, textiles and furniture. Similarly, most of the discounts and returns are derived from baskets, art & sculpture and jewelry. However, when it comes to percent return, textiles have much higher returns on average, and Easter and furniture products have the highest percent discounts.  
 
-As the amount discounted is increased, the quantity sold per order increased and the amount of revenue increased as well. The r value was 0.839 for the latter relationship, meaning there is a very strong correlation discount and revenue made. As a result, discounts on products should be encouraged in moderation. 
+![bar_quantity](bar_quantity.png)
+![bar_returns](bar_returns.png)
+![bar_discount](discount.png)
 
-From the large amount of overlap in the plot below, it is evident that the  majority of the money loss came from returns and not discounts. There was a huge spike in net loss and returns in the early summer of 2018. An analysis should be initiated to determine what caused this high return rate - was it just by chance, or did employees recommend the wrongs products to customers? 
+The figure below plots the average net loss per month. In this project, we have defined net worth as the amount of the gross sales lost from discounts and returns. The figure shows no clear patterns. However, there seems to be a large spike in net loss during the beginning months of 2017 and 2019. The large spikes in discounts appear to be spaced by several months of low net loss.
+
+![bar_revenue_per_item](bar_revenue_per_item.png)
+
+This figure shows the amount of monthly discounts overtime. The number skyrockets near the end of 2019, but is stable otherwise. Thus, the fluctuation in net loss is due to returns, which is demonstrated in the second figure below.
+
+![time_discounts](time_discounts.png)
+![time_returns](time_returns.png)
+
+From the large amount of overlap in the plot below, it is evident that the  majority of the money loss came from returns and not discounts. There was a huge spike in net loss and returns in the early summer of 2018. There were also many order occuring that month, which would explain the sudden increase in returns.
 
 ![time_comparison](time_comparison.png)
 
-Sales have increased remarkably in the winter of 2019. However, it is difficult to determine what led to this change.
+Annual sales are increasing. The percent increase from 2017 to 2019 is roughly 50%. This is fantastic new for the company! From the line plot, it seems that the sales always jump during the end of the year, which right around Christmas time. 
+
+![bar_sales](bar_sales.png)
 ![time_yearly](time_yearly.png)
 
-The product with the highest revenue per item sold is the "One-of-a-kind" selection. However, given the small quanitity sold, this could just be a coincidence.  
+
+![scatter_sales](scatter_sales.png)
+
+
 
 ## Conclusion
 
