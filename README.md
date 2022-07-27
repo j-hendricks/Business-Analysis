@@ -20,9 +20,10 @@ As seen in the bar graph below, the most frequently bought products are baskets,
 
 ![bar_quantity](Resources/bar_quantity.png)
 ![bar_returns](Resources/bar_returns.png)
-![bar_discount](Resources/discount.png)
+![bar_discount](Resources/bar_discount.png)
 
 This bar chart shows the total sales of each product. As expected, baskets and art & sculpture are the largest. All other products are small in comparison. Given that textiles has such a low profit margin with a high return rate, textile would be the product to discountinue. The next choices would be Easter and gift baskets due to their extremely small sales. 
+
 ![bar_sales_product](Resources/bar_sales_product.png)
 
 The figure below plots the average net loss per month. In this project, we have defined net worth as the amount of the gross sales lost from discounts and returns. The figure shows no clear patterns. However, there seems to be a large spike in net loss during the beginning months of 2017 and 2019. Each large spike in discounts appears to be spaced by several months of low net loss.
@@ -54,7 +55,7 @@ The % montly return was plotted and fitted with a regression line. The p value i
 Lastly, scatter plots were created to determine if an increase in % Discount translated to more sales. It is evident that the quantity of items sold increases with % discount until % discount exceeds 10%. Beyond 10%, the quantity sold decreases. A similar, though weaker, trend is found with net sales and % discount. Therefore, it is reccomended to keep discounts between 0 and 10% to maximize sales.
 
 ![scatter_decay2](Resources/scatter_decay2.png) 
-![scatter_decay1](Resources/scatter_.png) 
+![scatter_decay1](Resources/scatter_decay1.png) 
 
 ## Conclusion
 
