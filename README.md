@@ -39,7 +39,7 @@ The next bar chart shows the total sales of each product. As expected, baskets a
 
 The figure below plots the average net loss per month. In this project, we have defined net worth as the amount of the gross sales lost from discounts and returns. The figure shows no clear patterns. However, there seems to be a large spike in net loss during the beginning months of 2017 and 2019. Each large spike in discounts appears to be spaced by several months of low net loss.
 
-![time_loss](time_loss.png)
+![time_loss](Resources/time_loss.png)
 
 The next pair of figures shows the amount of monthly discounts and returns overtime. The amount of discounts skyrockets near the end of 2019, but is stable otherwise. Thus, the fluctuation in net loss is due to returns, which is demonstrated in the second figure.
 
