@@ -71,7 +71,7 @@ Lastly, scatter plots were created to determine if an increase in % Discount tra
 
 From 2017-2019, the most commonly bought products were baskets, art & sculpture and jewelry. The late fall and early winter months show the most profit, which is right around Christmas season. The product that produced the most revenue per item sold was the "One-of-a-kind" product line, which is one of the least sold items. Baskets came in second place for most revenue per item sold, and is the most popular product currently. 
 
-The company entered a unusually profitable quarter during the winter months of 2019, all without an increase in the % returns. From the scatter plots above, it is recomended that the company continue to place discounts on products, but keep them near or below 10%. 
+The company entered a unusually profitable quarter during the winter months of 2019, all without an increase in the % returns. From the scatter plots above, it is recomended that the company continue to place discounts on products, but keep them near 2-3% and below 10%. 
 
 Due to the low profit margin and high return rate of textiles, this product would be the best product type to discountinue. Next in line would be Easter and gift baskets, the latter of which could simply be merged with the more popular baskets category. 
 
