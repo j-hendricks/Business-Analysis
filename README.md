@@ -24,8 +24,12 @@ As seen in the bar graph below, the most frequently bought products are baskets,
 
 However, when it comes to percent return, textiles have much higher returns on average, and Easter and furniture products have the highest percent discounts.
 
-![bar_percent_discount](bar_percent_discount.png)
-![bar_percent_returns](bar_percent_returns.png)  
+![bar_percent_discount](Resources/bar_percent_discount.png)
+![bar_percent_returns](Resources/bar_percent_returns.png)  
+
+When plotting revenue per item sold, "One-of-a-kind" was the largest, and basket came in second place with almost $100 sales per basket. Furniture and home decore are the next highest, though their sales, like "One-of-a-kind" are small in comparison to the salse of basekts. 
+
+![bar_revenue_per_item](Resources/bar_revenue_per_item.png)
 
 The next bar chart shows the total sales of each product. As expected, baskets and art & sculpture are the largest. All other products are small in comparison. Given that textiles has such a low profit margin with a high return rate, textile would be the product to discountinue. The next choices would be Easter and gift baskets due to their extremely small sales.  
 
