@@ -16,20 +16,28 @@ To answer these questions, Python and Jupyter Notebook were used, along with Pan
 
 ## Results
 
-As seen in the bar graph below, the most frequently bought products are baskets, art & sculpture and jewelry. The least bought items are One-of-a-kind, textiles and furniture. Similarly, most of the discounts and returns are derived from baskets, art & sculpture and jewelry. However, when it comes to percent return, textiles have much higher returns on average, and Easter and furniture products have the highest percent discounts.  
+As seen in the bar graph below, the most frequently bought products are baskets, art & sculpture and jewelry. The least bought items are One-of-a-kind, textiles and furniture. As expected, most of the discounts and returns are derived from baskets, art & sculpture and jewelry. 
 
 ![bar_quantity](Resources/bar_quantity.png)
 ![bar_returns](Resources/bar_returns.png)
 ![bar_discount](Resources/bar_discount.png)
 
-This bar chart shows the total sales of each product. As expected, baskets and art & sculpture are the largest. All other products are small in comparison. Given that textiles has such a low profit margin with a high return rate, textile would be the product to discountinue. The next choices would be Easter and gift baskets due to their extremely small sales. 
+However, when it comes to percent return, textiles have much higher returns on average, and Easter and furniture products have the highest percent discounts.
+
+![bar_percent_discount](bar_percent_discount.png)
+![bar_percent_returns](bar_percent_returns.png)  
+
+The next bar chart shows the total sales of each product. As expected, baskets and art & sculpture are the largest. All other products are small in comparison. Given that textiles has such a low profit margin with a high return rate, textile would be the product to discountinue. The next choices would be Easter and gift baskets due to their extremely small sales.  
 
 ![bar_sales_product](Resources/bar_sales_product.png)
 
+The following bar chart shows the revenue made per product item. One-of-a-kind products, though sold infrequently, make the most revenue for each item sold. In second place is baskets, and furniture in third. It is advised to continue to offer "One-of-a-kind" products due to it's potential for boosting revenue.
+
+![bar_revenue_per_item](Resources/bar_revenue_per_item.png)
+
 The figure below plots the average net loss per month. In this project, we have defined net worth as the amount of the gross sales lost from discounts and returns. The figure shows no clear patterns. However, there seems to be a large spike in net loss during the beginning months of 2017 and 2019. Each large spike in discounts appears to be spaced by several months of low net loss.
 
-The following bar chart shows the revenue made per product item. One-of-a-kind products, though sold infrequently, make the most revenue for each item sold. In second place is baskets, and furniture in third. It is advised to continue to offer "One-of-a-kind" products due to it's potential for boosting revenue.
-![bar_revenue_per_item](Resources/bar_revenue_per_item.png)
+![time_loss](time_loss.png)
 
 This figure shows the amount of monthly discounts overtime. The number skyrockets near the end of 2019, but is stable otherwise. Thus, the fluctuation in net loss is due to returns, which is demonstrated in the second figure below.
 
